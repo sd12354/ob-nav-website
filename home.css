@@ -1,0 +1,235 @@
+body {
+margin: auto;
+left: 0;
+right: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  font-family: 'Hind Siliguri', sans-serif;
+  background-color: black;
+  position: sticky;
+  height: 50px;
+  width: 100vw;
+}
+
+li {
+  float: right;
+  padding-left: 16px;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  
+}
+
+.explore-btn {
+  background-color: #2486ef;
+  position: relative;
+  left: 0;
+  right: 0;
+  border: none;
+  color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+  padding: 8px;
+  width: 320px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  left: 0;
+  margin: auto;
+  right: 0;
+  display: flex;
+  top: 10vh;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+  color: white
+}
+.title {
+  position: relative;
+  top: -50px;
+  height: 140vh;
+  background-color: black;
+  width: 100vw;
+}
+.title h1 {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  position: relative;
+  font-family: 'Hind Siliguri', sans-serif;
+  top: 20vh;
+
+}
+.title p {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+  font-family: 'Hind Siliguri', sans-serif;
+  top: 73vh;
+  padding-bottom: 10px;
+}
+
+.second {
+  position: relative;
+  height: 300px;
+  width: 100vw;
+  background-color: white;
+}
+.second h1 {
+  text-align: center;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: #2486ef;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding: 36px;
+}
+.second h2 {
+  color: #2486ef;
+  font-family: 'Hind Siliguri', sans-serif;
+  text-align: center;
+}
+.grid {
+  position: relative;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+}
+.items {
+  width: 300px;
+  height: fit-content;
+}
+.items p {
+  color: #2486ef;
+  text-align: center;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.third {
+  background-color: #2486ef;
+  position: relative;
+  height: 500px;
+  padding-bottom: 100px;
+  width: 100vw;
+  justify-content: center;
+  text-align: center;
+  top: 60vh;
+}
+.third h1 {
+  padding: 36px;
+  color: white;
+  text-align: center;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 2.5rem;
+}
+
+.third p {
+  color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 16px;
+  padding: 16px;
+}
+
+.third button {
+  width: 300px;
+  padding: 8px;
+  border: none;
+  color: #2486ef;
+  background-color: #ffffff;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+@media (max-width: 500px) { 
+  .grid {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+    column-gap: 0px;
+  }
+  .items {
+    height: fit-content;
+  }
+  .third {
+    top: 200px;
+    position: relative;
+  }
+  .title p {
+    font-size: .75rem;
+  }
+  ul {
+    font-size: .75rem;
+    width: fit-content;
+    justify-content: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+
+}
+.policy {
+  font-size: 1rem;
+  padding: 64px;
+  color: #ffffff;
+  font-family: 'Hind Siliguri', sans-serif;
+  width: 75%;
+  justify-content:center ;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.privacy-body {
+  background-color: black;
+  margin: auto;
+  left: 0;
+  right: 0;
+  color: white;
+}
+.priv {
+  color: white;
+  text-align: center;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+span {
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+.home {
+  color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+  position: relative;
+  padding: 16px;
+  top: 16px;
+  text-decoration: none;
+  font-size: 1.75rem;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  top: 100px;
+}
